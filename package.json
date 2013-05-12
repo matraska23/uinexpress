@@ -1,9 +1,14 @@
 {
-	"name": "uinexpress",
+	"name": "uinexpress-mod2",
 	"description": "Enables underscore templates in express 2 and 3. By Harald Rudell.",
 	"author": "Harald Rudell <harald@allgoodapps.com>",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"contributors": [
+		{
+			"name": "Nick Malcev",
+			"email": "nsmalcev@gmail.com",
+			"web": "http://matraska231.herokuapp.com/"
+		},
 		{
 			"name": "Harald Rudell",
 			"email": "harald@allgoodapps.com",
@@ -12,7 +17,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/haraldrudell/uinexpress.git"
+		"url": "git://github.com/matraska23/uinexpress.git"
 	},
 	"dependencies": {
 		"underscore": ""
