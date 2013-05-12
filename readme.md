@@ -13,5 +13,13 @@ app.configure(function () {
 	app.register('html', require('uinexpress'))
 	app.set('view engine', 'html')
 ```
+set default layout
+```
+app.set("layout","layout[old]");
+```
+set layout from view page
+```
+<% _.setLayout("test_layout"); %>
+```
 # Notes
 * An alternative is to use ejs in the browser, see the module [ejsinbrowser](https://github.com/haraldrudell/ejsinbrowser)
